@@ -1,1 +1,218 @@
-<p>Hello world</p>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="">
+  <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Learning Open-vocabulary Semantic Segmentation Models From Natural Language Supervision</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">RefCLIP: A Universal Teacher forWeakly Supervised
+            Referring Expression Comprehension</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a>Lei Jin</a><sup>1*</sup>,</span>
+
+            <span class="author-block">
+              <a>Gen Luo</a><sup>1*</sup>,</span>
+            <span class="author-block">
+              <a>Yiyi Zhou</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a>Xiaoshuai Sun,</a><sup>1✧</sup>,</span>
+            <span class="author-block">
+              <a>Guannan Jiang,</a><sup>2</sup>,</span>
+            <span class="author-block">
+              <a>Annan Shu</a><sup>2</sup>,</span>
+            <span class="author-block">
+              <a>Rongrong Ji</a><sup>1</sup>,</span>
+
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>Xiamen University,</span>
+            <span class="author-block"><sup>2</sup>Contemporary Amperex Technology</span>
+
+          </div>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>*</sup>Equal contribution</span>
+            <span class="author-block"><sup>✧</sup>Corresponding author</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/kingthreestones/RefCLIP"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+
+
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+    <div class="column is-full-width">
+      <!-- Visual Effects. -->
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Referring Expression Comprehension (REC) is a task of grounding the referent based on an expression, and its
+            development is greatly limited by expensive instance-level annotations. Most existing weakly supervised
+            methods are built based on two-stage detection networks, which are computationally expensive. In this paper,
+            we resort to the efficient one-stage detector and propose a novel weakly supervised model called RefCLIP.
+            Specifically, RefCLIP redefines weakly supervised REC as an anchor-text matching problem, which can avoid
+            the complex post-processing in existing methods. To achieve weakly supervised learning, we introduce
+            anchor-based contrastive loss to optimize RefCLIP via numerous anchor-text pairs. Based on RefCLIP, we
+            further propose the first model-agnostic weakly supervised training scheme for existing REC models, where
+            RefCLIP acts as a mature teacher to generate pseudo-labels for teaching common REC models. With our careful
+            designs, this scheme can even help existing REC models achieve better weakly supervised performance than
+            RefCLIP, e.g., TransVG and SimREC. To validate our approaches,
+            we conduct extensive experiments on four REC benchmarks, i.e., RefCOCO, RefCOCO+, RefCOCOg and ReferItGame.
+            Experimental results not only report our significant performance gains over existing weakly supervised
+            models, e.g., +24.87% on RefCOCO, but also show the 5x faster inference speed.
+          </p>
+      </div>
+    </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+    <div class="column is-full-width">
+      <!-- Visual Effects. -->
+        <h2 class="title is-3">Model Architecture</h2>
+        <img src="static/images/RefCLIP.png" style="width: 100%" alt>
+        <div class="content has-text-justified">
+        <p>
+          <b>The framework of the proposed RefCLIP (left) and weakly supervised training scheme (right). </b>
+          In RefCLIP, the image and expression are first processed by visual and text encoders. After that, RefCLIP
+          filters anchors of low-value and returns the best-matching one for bounding box prediction. RefCLIP is weakly
+          supervised via anchor-based contrastive learning. In our weakly supervised training scheme, RefCLIP serves as
+          a mature teacher to provide pseudo-labels for training common REC models without any modification.
+        </p>
+        </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+    <div class="column is-full-width">
+      <!-- Visual Effects. -->
+        <h2 class="title is-3">Visualization results on MSCOCO</h2>
+        <img src="static/images/vis.png" style="width: 100%" alt>
+        <div class="content has-text-justified">
+        <p>
+          The yellow and green boxes are the predicted and ground truth ones, respectively.
+        </p>
+        </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>
+
+</code></pre>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <h3 class="title">Acknowledgements</h3>
+          <p>
+            The website template was borrowed from <a href="https://nerfies.github.io/">Nerfies</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
